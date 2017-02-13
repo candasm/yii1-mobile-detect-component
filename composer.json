@@ -1,0 +1,47 @@
+{
+  "name": "candasm/yii1-mobile-detect-component",
+  "description": "MobileDetect library for YiiFramework 1.x",
+  "keywords": [
+    "yii extension",
+    "yii mobile detect",
+    "yii component",
+    "mobile detect",
+    "yii framework mobile detect component"
+  ],
+  "license": "MIT",
+  "type": "yii-extension",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "Candas Minareci",
+      "email": "candas@minareci.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "yiisoft/yii": "~1.1.14",
+    "mobiledetect/mobiledetectlib": "~2.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~3.7",
+    "squizlabs/php_codesniffer": "~2.8",
+    "phpunit/php-invoker": "^1.1",
+    "phpunit/phpunit-story": "^1.0",
+    "phpunit/dbunit": "~1.2",
+    "phpunit/phpunit-selenium": "~1.4.2",
+    "satooshi/php-coveralls": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yii1MobileDetectComponent\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Yii1MobileDetectComponent\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "vendor-dir": "protected/vendor/"
+  }
+}
